@@ -8,6 +8,5 @@
         "navigationBarBackgroundColor": "#fff",
         "navigationBarTitleText": "Super Mana",
         "navigationBarTextStyle": "black"
-    },
-    "sitemapLocation": "sitemap.json"
+    }
 }
