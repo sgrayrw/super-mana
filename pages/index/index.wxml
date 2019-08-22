@@ -1,4 +1,4 @@
 <view class="container">
     <text class="greeting">{{greeting}}</text>
-    <image class="frontimg" src="../imgs/mana.png" mode="aspectFit"></image>
+    <image class="frontimg" src="{{imageUrl}}" mode="aspectFit"></image>
 </view>
