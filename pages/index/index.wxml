@@ -1,4 +1,4 @@
 <view class="container">
-    <button bindtap="click">这是哪个mana？</button>
-    <image class="frontImg" src="{{frontImgUrl}}" mode="aspectFit"></image>
+  <button bindtap="click">这是哪个苏展？</button>
+  <image class="frontImg" src="{{frontImgUrl}}" mode="aspectFit"></image>
 </view>
