@@ -1,6 +1,15 @@
 Page({
   data: {
-    greeting: "起床ne",
-    frontImgUrl: "https://rayrw-cn.oss-cn-shenzhen.aliyuncs.com/miniprogram/IMG_6948.JPG?OSSAccessKeyId=TMP.hXS864Y6HQm7jJ9SBuLHHM3pzsikZb5f63jSpWzoWAMXJYDNDr6X71vZuVLnGb5coP3VPu2VX3HmMTiKMMr26ApQQAfggtwSuPwgkPouyBXL3xgJf6Aeg2fG7osgLa.tmp&Expires=1566563115&Signature=1CKA0QaZMuViSlZW4wmkBHSO8Oo%3D"
+    frontImgUrl: "https://rayrw-cn.oss-cn-shenzhen.aliyuncs.com/miniprogram/mana.png"
+  },
+  click: function() {
+    const imgId = getRandomInt(76)
+    const imgUrl = "https://rayrw-cn.oss-cn-shenzhen.aliyuncs.com/miniprogram/img" + imgId + ".JPG"
+    this.setData({frontImgUrl: imgUrl})
   }
 })
+
+// randint between [0, max)
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}

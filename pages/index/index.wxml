@@ -1,4 +1,4 @@
 <view class="container">
-    <text class="greeting">{{greeting}}</text>
+    <button bindtap="click">这是哪个mana？</button>
     <image class="frontImg" src="{{frontImgUrl}}" mode="aspectFit"></image>
 </view>

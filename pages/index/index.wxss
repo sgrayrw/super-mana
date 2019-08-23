@@ -1,0 +1,4 @@
+.frontImg {
+  margin: 20rpx;
+  height: 800rpx;
+}
