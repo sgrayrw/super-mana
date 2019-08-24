@@ -3,7 +3,7 @@ Page({
     frontImgUrl: "https://rayrw-cn.oss-cn-shenzhen.aliyuncs.com/miniprogram/mana.png"
   },
   click: function() {
-    const imgId = getRandomInt(76)
+    const imgId = getRandomInt(56)
     const imgUrl = "https://rayrw-cn.oss-cn-shenzhen.aliyuncs.com/miniprogram/img" + imgId + ".JPG"
     this.setData({frontImgUrl: imgUrl})
   }
